@@ -589,11 +589,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -397.2
+      value: -195.9
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 253.2
+      value: 358.4
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
       propertyPath: m_LocalPosition.z
@@ -637,7 +637,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 5000000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
       propertyPath: m_GravityScale
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
       propertyPath: m_JumpForce
@@ -1911,6 +1911,7 @@ GameObject:
   - component: {fileID: 633144480}
   - component: {fileID: 633144479}
   - component: {fileID: 633144478}
+  - component: {fileID: 633144481}
   m_Layer: 8
   m_Name: 'zhuzi '
   m_TagString: Untagged
@@ -1995,12 +1996,24 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 633144477}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -240.12527, y: 207.15, z: 0}
+  m_LocalPosition: {x: -240.12527, y: 185.5, z: 0}
   m_LocalScale: {x: 9.107709, y: 43.93446, z: 2.77258}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &633144481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 633144477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5252ef6005890ba45bca2f24e04abe39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheel: {fileID: 1301732453}
 --- !u!1 &660449761
 GameObject:
   m_ObjectHideFlags: 0
@@ -2995,7 +3008,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 958291134}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a9ffd0d1370c2d4188940ccd7a0a100, type: 3}
   m_Name: 
@@ -4091,7 +4104,7 @@ GameObject:
   - component: {fileID: 1301732455}
   - component: {fileID: 1301732454}
   m_Layer: 0
-  m_Name: GameObject (5)
+  m_Name: waterwheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4103,7 +4116,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1301732453}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a9ffd0d1370c2d4188940ccd7a0a100, type: 3}
   m_Name: 
@@ -5662,7 +5675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd8f8fc2996cd384894ce41645ce3331, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ral: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1696343207
 GameObject:
   m_ObjectHideFlags: 0
@@ -6082,7 +6094,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1769790398}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.3819885, y: -34.854706, z: 55.464455}
+  m_LocalPosition: {x: -6.3819885, y: -35.8, z: 55.464455}
   m_LocalScale: {x: 7.7682347, y: 51.919987, z: 2.7725797}
   m_Children: []
   m_Father: {fileID: 660449762}
@@ -6789,7 +6801,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1936263853}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee28ed36ce792454f90da2e247b91d7f, type: 3}
   m_Name: 

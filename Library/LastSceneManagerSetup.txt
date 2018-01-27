@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Fluvio Examples/VersionSpecific/Three/Scenes/Three.unity
+- path: Assets/fishsalter.unity
   isLoaded: 1
   isActive: 1

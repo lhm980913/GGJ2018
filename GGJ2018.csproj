@@ -16,7 +16,7 @@
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
-    <UnityVersion>2017.3.0p1</UnityVersion>
+    <UnityVersion>2017.3.0f3</UnityVersion>
     <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
@@ -253,6 +253,9 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WSA.Extensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -272,25 +275,25 @@
       <HintPath>Assets/Fluvio/_Main/Fluvio.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/15801/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/棋子/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/15801/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/棋子/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/15801/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/棋子/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Analytics">
-      <HintPath>C:/Users/15801/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+      <HintPath>C:/Users/棋子/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/15801/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/棋子/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/15801/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/棋子/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/15801/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/棋子/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -300,11 +303,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\aaaaaaa.cs" />
-    <Compile Include="Assets\bulingbuling.cs" />
-    <Compile Include="Assets\copy.cs" />
-    <Compile Include="Assets\dongcidaci.cs" />
-    <Compile Include="Assets\emmmmm.cs" />
     <Compile Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Scripts\PostEffectsBase.cs" />
     <Compile Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
@@ -319,21 +317,27 @@
     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\Internal\Threading\ThreadHandler.cs" />
     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\SamplePlugins\FluidMixer.cs" />
     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\SamplePlugins\FluidTouch.cs" />
-    <Compile Include="Assets\fly.cs" />
-    <Compile Include="Assets\fly1.cs" />
-    <Compile Include="Assets\follow.cs" />
-    <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DEffects.cs" />
     <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DMaterialScaler.cs" />
     <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DSplashFX.cs" />
-    <Compile Include="Assets\steam.cs" />
-    <Compile Include="Assets\TemCtr.cs" />
-    <Compile Include="Assets\TemDown.cs" />
-    <Compile Include="Assets\temmmmmmm.cs" />
-    <Compile Include="Assets\TemUp.cs" />
-    <Compile Include="Assets\water.cs" />
-    <Compile Include="Assets\water1.cs" />
-    <Compile Include="Assets\zhaun.cs" />
+    <Compile Include="Assets\script\aaaaaaa.cs" />
+    <Compile Include="Assets\script\bulingbuling.cs" />
+    <Compile Include="Assets\script\copy.cs" />
+    <Compile Include="Assets\script\dongcidaci.cs" />
+    <Compile Include="Assets\script\emmmmm.cs" />
+    <Compile Include="Assets\script\fly.cs" />
+    <Compile Include="Assets\script\fly1.cs" />
+    <Compile Include="Assets\script\follow.cs" />
+    <Compile Include="Assets\script\lift.cs" />
+    <Compile Include="Assets\script\NewBehaviourScript.cs" />
+    <Compile Include="Assets\script\steam.cs" />
+    <Compile Include="Assets\script\TemCtr.cs" />
+    <Compile Include="Assets\script\TemDown.cs" />
+    <Compile Include="Assets\script\temmmmmmm.cs" />
+    <Compile Include="Assets\script\TemUp.cs" />
+    <Compile Include="Assets\script\water.cs" />
+    <Compile Include="Assets\script\water1.cs" />
+    <Compile Include="Assets\script\zhaun.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fluvio Examples\VersionSpecific\Three\README.txt" />
