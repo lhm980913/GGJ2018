@@ -300,6 +300,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\aaaaaaa.cs" />
     <Compile Include="Assets\bulingbuling.cs" />
     <Compile Include="Assets\copy.cs" />
     <Compile Include="Assets\dongcidaci.cs" />
@@ -332,6 +333,7 @@
     <Compile Include="Assets\TemUp.cs" />
     <Compile Include="Assets\water.cs" />
     <Compile Include="Assets\water1.cs" />
+    <Compile Include="Assets\zhaun.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fluvio Examples\VersionSpecific\Three\README.txt" />
