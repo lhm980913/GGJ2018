@@ -7,7 +7,7 @@ public class water : MonoBehaviour
     public PlatformEffector2D pl;
 
     public float speed_steam;
-    static public float tem = 4;
+    public static float tem = 4;
     int a;
     public GameObject[] steam;
     float ttime = 0;
@@ -16,8 +16,8 @@ public class water : MonoBehaviour
     int i = 0;
     int n = 1;
     public float lenth;
-
-    bool iswater = false;
+    public GameObject ice;
+    private bool iswater = false;
     // Use this for initialization
     void Start () {
 		
@@ -28,19 +28,19 @@ public class water : MonoBehaviour
         a = (int)tem;
         ttime += Time.deltaTime;
 
-        if(Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            tem--;
+        //if(Input.GetKeyDown(KeyCode.DownArrow))
+        //{
+        //    tem--;
 
-        }
+        //}
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            tem++;
+        //if (Input.GetKeyDown(KeyCode.UpArrow))
+        //{
+        //    tem++;
 
-        }
-        if (tem == 5) tem = 4;
-        if (tem == 0) tem = 1;
+        //}
+        //if (tem == 5) tem = 4;
+        //if (tem == 0) tem = 1;
 
         switch (a)
         {
@@ -70,18 +70,22 @@ public class water : MonoBehaviour
 	}
     void beeice()
     {
-        bool iswater = false;
+        iswater = false;
+        GetComponent<BoxCollider2D>().isTrigger = false;
+        gameObject.transform.GetChild(0).gameObject.active = false;
+            ice.active = true;
     }
     void beesteam()
     {
-        bool iswater = false;
+        ice.active = false;
+        iswater = false;
         if (ttime>rate)
         {
            
             rate = ttime + speed_steam;
 
-            Instantiate(steam[i], new Vector3(this.transform.position.x - whide + Random.Range(0, whide), this.transform.position.y-3),new Quaternion());
-            Instantiate(steam[n], new Vector3(this.transform.position.x - whide + Random.Range(0, whide), this.transform.position.y-2), new Quaternion());
+            Instantiate(steam[i], new Vector3(transform.position.x - whide + Random.Range(0, whide), transform.position.y-3),new Quaternion());
+            Instantiate(steam[n], new Vector3(transform.position.x - whide + Random.Range(0, whide), transform.position.y-2), new Quaternion());
             i++;n++;
             if (i == 3) i = 0;
             if (n == 3) n = 0;
@@ -89,6 +93,9 @@ public class water : MonoBehaviour
     }   
     void beewater()
     {
+        gameObject.transform.GetChild(0).gameObject.active = true;
+        this.GetComponent<BoxCollider2D>().isTrigger = true;
+        ice.active = false;
         iswater = true;
     }
     private void OnTriggerStay2D(Collider2D collision)
