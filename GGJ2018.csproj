@@ -322,7 +322,11 @@
     <Compile Include="Assets\fly.cs" />
     <Compile Include="Assets\fly1.cs" />
     <Compile Include="Assets\follow.cs" />
+    <Compile Include="Assets\LiquidPhysics\Scripts\DynamicParticle.cs" />
+    <Compile Include="Assets\LiquidPhysics\Scripts\ParticleGenerator.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\NewBehaviourScript1.cs" />
+    <Compile Include="Assets\NewBehaviourScript2.cs" />
     <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DEffects.cs" />
     <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DMaterialScaler.cs" />
     <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DSplashFX.cs" />
@@ -334,6 +338,7 @@
     <Compile Include="Assets\water.cs" />
     <Compile Include="Assets\water1.cs" />
     <Compile Include="Assets\zhaun.cs" />
+    <Compile Include="Assets\水.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fluvio Examples\VersionSpecific\Three\README.txt" />
@@ -401,6 +406,8 @@
     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-VertexLitBlended.shader" />
     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-VertexLitBlended.shader" />
     <None Include="Assets\Fluvio\_Main\Fluvio.Runtime.xml" />
+    <None Include="Assets\LiquidPhysics\Shaders\Metaballs_Multiple.shader" />
+    <None Include="Assets\README.txt" />
     <None Include="Assets\Raving Bots\Shaders\Water 2D Plain.shader" />
     <None Include="Assets\Raving Bots\Shaders\Water 2D Waves.shader" />
     <None Include="Assets\Raving Bots\Shaders\Water2D.cginc" />
