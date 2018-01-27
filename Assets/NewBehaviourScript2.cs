@@ -5,6 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript2 : MonoBehaviour {
     public NewBehaviourScript1 NewBehaviourScript1;
 	// Use this for initialization
+    public float  speeddddddd;
 	void Start () {
 		
 	}
@@ -13,7 +14,15 @@ public class NewBehaviourScript2 : MonoBehaviour {
 	void Update () {
 		if(NewBehaviourScript1.sahfsaf)
         {
-            this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y-1, this.transform.position. z);
+
+            if (this.transform.position.y < 127.3)
+                this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y+speeddddddd, this.transform.position. z);
+            
+                
         }
-	}
+        else
+            if (this.transform.position.y > 116)
+            this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y - speeddddddd, this.transform.position.z);
+
+    }
 }
