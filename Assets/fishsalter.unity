@@ -512,6 +512,30 @@ Prefab:
       propertyPath: force
       value: 10000
       objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_Offset.y
+      value: -0.13302541
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_Size.y
+      value: 0.9460509
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.588
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.019
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: d4630cc5d62d6d44eaa5e833b1c0251d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
   m_IsPrefabParent: 0
@@ -914,9 +938,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 372301364}
-  - component: {fileID: 372301363}
   - component: {fileID: 372301362}
   - component: {fileID: 372301361}
+  - component: {fileID: 372301363}
   m_Layer: 0
   m_Name: water (1)
   m_TagString: Water
@@ -1001,15 +1025,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 372301360}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c507e8642df2ca488ff3f7c5a0dc86a, type: 3}
+  m_Script: {fileID: 11500000, guid: 99408de73dfd31f49905de78e512ae40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pl: {fileID: 0}
   speed_steam: 2
+  water_1: {fileID: 0}
   steam:
   - {fileID: 1727575814551854, guid: 8f3e8de0b260df54dba65281ad2c7203, type: 2}
   - {fileID: 1389593819984008, guid: 6a9c339c105fc2a4b886f810fff3d47d, type: 2}
-  - {fileID: 1325728819}
+  - {fileID: 1121309626577914, guid: c7f53700de625df4393dbde848435ffe, type: 2}
   whide: 13
   lenth: 0
   ice: {fileID: 1794577572}
@@ -1514,7 +1539,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1041662744}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09bed9c5068ecab4d9a4fd87eda027a4, type: 3}
+  m_Script: {fileID: 11500000, guid: f9d0852d732d16e4fa374f62e800e6d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1041662746
